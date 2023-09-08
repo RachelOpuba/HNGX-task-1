@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HNGX-TASK-1</title>
+  </head>
+  <body>
+    <main class="main flex-center">
+      <div class="info-card">
+        <div class="heading-primary">
+          <h1 data-testid="slackUserName">Rachel .K. Opuba</h1>
+        </div>
+        <div class="profile-image flex-center">
+          <img
+            src="./asset/profile-pic.jpeg"
+            alt="Opuba"
+            data-testid="slackDisplayImage"
+          />
+        </div>
+        <div class="day_of_week">
+          <p>
+            Current day of the week:
+            <span
+              data-testid="currentDayOfTheWeek"
+              class="current_day bold"
+            ></span>
+          </p>
+        </div>
+        <div>
+          <p>
+            Current UTC Time:
+            <span data-testid="currentUTCTime" class="utc-time bold"></span>
+          </p>
+        </div>
+        <div class="track">
+          <p>
+            My Track: <span data-testid="myTrack" class="bold">Frontend</span>
+          </p>
+        </div>
+        <div class="github-url">
+          <a href="" target="_blank" data-testid="githubURL" class="url-link"
+            >Source Code</a
+          >
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
